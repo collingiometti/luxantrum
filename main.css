@@ -1,0 +1,60 @@
+@font-face {
+    font-family: goudy;
+    src: url(goudy.TTF);
+}
+@font-face {
+    font-family: goudyItalic;
+    src: url(goudyitalic.TTF);
+}
+@font-face {
+    font-family: nexa;
+    src: url(nexa.TTF);
+}
+body{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: goudy;
+    color: white;
+    margin: 0;
+}
+.back{
+    height: 50px;
+    margin: 20px;
+    transition: 0.2s;
+}
+.back:hover{
+    opacity: .5;
+}
+.content{
+    padding: 50px;
+    text-align: center;
+    width: 60%;
+    margin:auto;
+}
+hr{
+    border-top: 1px solid white;
+    margin: auto;
+}
+p{
+    font-size: 150%;
+}
+.header {
+    padding: 10px;
+    background: #121212;
+    color: white;
+    height: fit-content;
+    font-family: nexa;
+    font-size: 20px;
+    opacity: .75;
+}
+.banner{
+    height: 120px;
+    margin: 15px;
+    transition: 0.2s;
+}
+.banner:hover{
+    height: 130px;
+    margin: 10px;
+}
