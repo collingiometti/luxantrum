@@ -1,17 +1,17 @@
 @font-face {
     font-family: goudy;
-    src: url('/assets/fonts/goudy.TTF');
+    src: url('./assets/fonts/goudy.TTF');
 }
 @font-face {
     font-family: goudyItalic;
-    src: url('/assets/fonts/goudyitalic.TTF');
+    src: url('./assets/fonts/goudyitalic.TTF');
 }
 @font-face {
     font-family: nexa;
-    src: url('/assets/fonts/nexa.TTF');
+    src: url('./assets/fonts/nexa.TTF');
 }
 body{
-    background-image: url('/assets/images/background.png');
+    background-image: url('./assets/images/background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
